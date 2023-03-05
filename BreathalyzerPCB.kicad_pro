@@ -271,7 +271,11 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [],
+        "nets": [
+          "+6V",
+          "GND",
+          "VCC"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(246, 23, 255)",
         "track_width": 0.25,
