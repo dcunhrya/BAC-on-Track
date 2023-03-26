@@ -400,10 +400,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USBNet",
-        "nets": [
-          "/USBC",
-          "/USBC-GND"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(62, 21, 255)",
         "track_width": 0.2,
