@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/dcunhrya/Documents/Pratt 2023 Spring/MEDesign/BreathalyzerPCB/BAC-on-Track/BreathalyzerPCB.kicad_sch</source>
+    <date>Sunday, March 26, 2023 at 02:52:53 PM</date>
+    <tool>Eeschema (6.0.10-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Breathalyzer Schematics</title>
+        <company>MEDesign</company>
+        <rev>v1</rev>
+        <date>2023-02-19</date>
+        <source>BreathalyzerPCB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT101">
+      <value>3V</value>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19b0c9ae-07f5-4d2f-b712-4bd1855a929d</tstamps>
+    </comp>
+    <comp ref="BT102">
+      <value>3V</value>
+      <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc71a3bc-0c91-4b4a-ba34-ea8c8f3543db</tstamps>
+    </comp>
+    <comp ref="D101">
+      <value>LED_RGB</value>
+      <libsource lib="Device" part="LED_RGB" description="RGB LED, 6 pin package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6999ab4e-f877-47ea-8585-89602667540d</tstamps>
+    </comp>
+    <comp ref="D102">
+      <value>LED</value>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>031dad60-598b-4730-8162-72ee8acf85dd</tstamps>
+    </comp>
+    <comp ref="F101">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2428b16-ad57-4378-abb7-1e442bfe2f21</tstamps>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6bf3017-d848-470d-ab6c-abf7ac46e885</tstamps>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9956ec37-5224-4546-aeec-03d22c3618c6</tstamps>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46e7fde0-ff3c-4edc-988f-d3d16293d2e4</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>Power Switch</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b2110e9-8b01-4ba4-bd89-0987ed3d12d9</tstamps>
+    </comp>
+    <comp ref="J102">
+      <value>Battery</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e64428c3-b9a4-43d0-b32a-630640302a6b</tstamps>
+    </comp>
+    <comp ref="J103">
+      <value>RGBConn</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ace05dc-394b-44a3-a20a-df80165fbc32</tstamps>
+    </comp>
+    <comp ref="J104">
+      <value>Read LED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eb1bf18-d347-4b70-8a8a-04fac290a046</tstamps>
+    </comp>
+    <comp ref="J105">
+      <value>MQ3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>017b46ab-06e4-4997-87d2-5d74dd05ca29</tstamps>
+    </comp>
+    <comp ref="J106">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</footprint>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cad7cc4d-a6ce-4533-a122-5f24b02db639</tstamps>
+    </comp>
+    <comp ref="R101">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6501130f-ee2b-4f5b-8a5b-7fd7494a948c</tstamps>
+    </comp>
+    <comp ref="R102">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6f544f2-c00b-4f77-887f-4a6220dd48e5</tstamps>
+    </comp>
+    <comp ref="R103">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe270b32-e875-43b9-b6d8-d1184681f035</tstamps>
+    </comp>
+    <comp ref="R104">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ee69bb8-5fcf-4814-a383-5505c1540198</tstamps>
+    </comp>
+    <comp ref="SW101">
+      <value>SW_SPST</value>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26ceea55-5233-4e53-9bc3-67b7004b4105</tstamps>
+    </comp>
+    <comp ref="TP101">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3defb6c3-940c-4291-a5dd-bd3f8cadfa9b</tstamps>
+    </comp>
+    <comp ref="TP102">
+      <value>AnalogMQ3</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0dc2613-d572-4474-a783-f189ba9497e3</tstamps>
+    </comp>
+    <comp ref="TP103">
+      <value>VCC</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a35589d2-6014-4716-a3dc-24b625372fcb</tstamps>
+    </comp>
+    <comp ref="TP104">
+      <value>BattLED1Test</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c761b8c5-bc60-4378-bcbd-20b90181c8db</tstamps>
+    </comp>
+    <comp ref="TP105">
+      <value>BattLED2Test</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78db25d8-60ff-45e9-9473-299425a37f6c</tstamps>
+    </comp>
+    <comp ref="TP106">
+      <value>BattLED3Test</value>
+      <footprint>TestPoint:TestPoint_Pad_D4.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Flag" description="test point (alternative flag-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed10bb7b-e0c6-4bfd-8860-246a96c18e72</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>MAX6105</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="MAX6105" description="Low-dropout high current voltage reference, 5.000V, ±0.4% accuracy, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2012498d-2a7d-46b2-a131-58cfab4b1177</tstamps>
+    </comp>
+    <comp ref="U102">
+      <value>ABX00030</value>
+      <footprint>ABX00030:MODULE_ABX00030</footprint>
+      <fields>
+        <field name="MANUFACTURER">Arduino</field>
+        <field name="PARTREV">2</field>
+        <field name="SNAPEDA_PN">ABX00030</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="ABX00030" part="ABX00030" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="SNAPEDA_PN" value="ABX00030"/>
+      <property name="MANUFACTURER" value="Arduino"/>
+      <property name="PARTREV" value="2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6115c184-033e-43ed-852e-aca56a70a3e0</tstamps>
+    </comp>
+    <comp ref="U103">
+      <value>MQ3</value>
+      <footprint>XDCR_SEN-08880</footprint>
+      <fields>
+        <field name="MANUFACTURER">HANWEI ELETRONICS CO.,LTD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.00 mm</field>
+        <field name="PARTREV">1.3</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="SEN-08880" part="SEN-08880" description=""/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="1.3"/>
+      <property name="MANUFACTURER" value="HANWEI ELETRONICS CO.,LTD"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.00 mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BreathalyzerPCB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eace6e1-d556-4f3e-8061-76a856a232e1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ABX00030" part="ABX00030">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ABX00030</field>
+        <field name="Footprint">MODULE_ABX00030</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SNAPEDA_PN">ABX00030</field>
+        <field name="MANUFACTURER">Arduino</field>
+        <field name="PARTREV">2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D13" type="bidirectional"/>
+        <pin num="2" name="+3V3" type="power_in"/>
+        <pin num="3" name="AREF" type="bidirectional"/>
+        <pin num="4" name="A0/DAC0" type="bidirectional"/>
+        <pin num="5" name="A1" type="bidirectional"/>
+        <pin num="6" name="A2" type="bidirectional"/>
+        <pin num="7" name="A3" type="bidirectional"/>
+        <pin num="8" name="A4/SDA" type="bidirectional"/>
+        <pin num="9" name="A5/SCL" type="bidirectional"/>
+        <pin num="10" name="A6" type="bidirectional"/>
+        <pin num="11" name="A7" type="bidirectional"/>
+        <pin num="12" name="VUSB" type="power_in"/>
+        <pin num="13" name="~{RST}" type="input"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="VIN" type="input"/>
+        <pin num="16" name="TX" type="bidirectional"/>
+        <pin num="17" name="RX" type="bidirectional"/>
+        <pin num="18" name="~{RST}" type="input"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="D2" type="bidirectional"/>
+        <pin num="21" name="D3/PWM" type="bidirectional"/>
+        <pin num="22" name="D4" type="bidirectional"/>
+        <pin num="23" name="D5/PWM" type="bidirectional"/>
+        <pin num="24" name="D6/PWM" type="bidirectional"/>
+        <pin num="25" name="D7" type="bidirectional"/>
+        <pin num="26" name="D8" type="bidirectional"/>
+        <pin num="27" name="D9/PWM" type="bidirectional"/>
+        <pin num="28" name="D10/PWM" type="bidirectional"/>
+        <pin num="29" name="D11/MOSI" type="bidirectional"/>
+        <pin num="30" name="D12/MISO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Flag">
+      <description>test point (alternative flag-style design)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Flag</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery">
+      <description>Multiple-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_RGB">
+      <description>RGB LED, 6 pin package</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_RGB</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RK" type="passive"/>
+        <pin num="2" name="GK" type="passive"/>
+        <pin num="3" name="BK" type="passive"/>
+        <pin num="4" name="BA" type="passive"/>
+        <pin num="5" name="GA" type="passive"/>
+        <pin num="6" name="RA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="MAX6105">
+      <description>Low-dropout high current voltage reference, 5.000V, ±0.4% accuracy, SOT-23</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX6105</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SEN-08880" part="SEN-08880">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SEN-08880</field>
+        <field name="Footprint">XDCR_SEN-08880</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">1.3</field>
+        <field name="MANUFACTURER">HANWEI ELETRONICS CO.,LTD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.00 mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ABX00030">
+      <uri>/Users/dcunhrya/Downloads/ABX00030/ABX00030.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Reference_Voltage.kicad_sym</uri>
+    </library>
+    <library logical="SEN-08880">
+      <uri>/Users/dcunhrya/Downloads/SEN-08880/SEN-08880.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+6V">
+      <node ref="BT101" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="F101" pin="1" pintype="passive"/>
+      <node ref="F101" pin="2" pintype="passive"/>
+      <node ref="J101" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J102" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J106" pin="1" pintype="passive"/>
+      <node ref="SW101" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="2" name="/BattLED1">
+      <node ref="D101" pin="1" pinfunction="RK" pintype="passive"/>
+      <node ref="D101" pin="6" pinfunction="RA" pintype="passive"/>
+      <node ref="J103" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R101" pin="2" pintype="passive"/>
+      <node ref="TP104" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="5" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/BattLED2">
+      <node ref="D101" pin="2" pinfunction="GK" pintype="passive"/>
+      <node ref="D101" pin="5" pinfunction="GA" pintype="passive"/>
+      <node ref="J103" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R102" pin="1" pintype="passive"/>
+      <node ref="TP105" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="6" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/BattLED3">
+      <node ref="D101" pin="3" pinfunction="BK" pintype="passive"/>
+      <node ref="D101" pin="4" pinfunction="BA" pintype="passive"/>
+      <node ref="J103" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R103" pin="1" pintype="passive"/>
+      <node ref="TP106" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="7" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/MQ3Analog">
+      <node ref="J105" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="TP102" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U102" pin="8" pinfunction="A4/SDA" pintype="bidirectional"/>
+      <node ref="U103" pin="1" pintype="passive"/>
+      <node ref="U103" pin="3" pintype="passive"/>
+    </net>
+    <net code="6" name="/ReadLED">
+      <node ref="D102" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J104" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U102" pin="20" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/Switch">
+      <node ref="J101" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW101" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U101" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="BT102" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="J102" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J105" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J106" pin="2" pintype="passive"/>
+      <node ref="J106" pin="3" pintype="passive"/>
+      <node ref="R101" pin="1" pintype="passive"/>
+      <node ref="R102" pin="2" pintype="passive"/>
+      <node ref="R103" pin="2" pintype="passive"/>
+      <node ref="R104" pin="2" pintype="passive"/>
+      <node ref="TP101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U102" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U102" pin="19" pinfunction="GND" pintype="power_in"/>
+      <node ref="U103" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(BT101-Pad2)">
+      <node ref="BT101" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="BT102" pin="1" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D102-Pad1)">
+      <node ref="D102" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J104" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R104" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="VCC">
+      <node ref="J105" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TP103" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="2" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U102" pin="11" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="U102" pin="15" pinfunction="VIN" pintype="input"/>
+      <node ref="U103" pin="5" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(U102-Pad1)">
+      <node ref="U102" pin="1" pinfunction="D13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U102-Pad2)">
+      <node ref="U102" pin="2" pinfunction="+3V3" pintype="power_in+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(U102-Pad3)">
+      <node ref="U102" pin="3" pinfunction="AREF" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(U102-Pad4)">
+      <node ref="U102" pin="4" pinfunction="A0/DAC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U102-Pad9)">
+      <node ref="U102" pin="9" pinfunction="A5/SCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U102-Pad10)">
+      <node ref="U102" pin="10" pinfunction="A6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U102-Pad12)">
+      <node ref="U102" pin="12" pinfunction="VUSB" pintype="power_in+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U102-Pad13)">
+      <node ref="U102" pin="13" pinfunction="~{RST}" pintype="input+no_connect"/>
+      <node ref="U102" pin="18" pinfunction="~{RST}" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U102-Pad16)">
+      <node ref="U102" pin="16" pinfunction="TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U102-Pad17)">
+      <node ref="U102" pin="17" pinfunction="RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U102-Pad21)">
+      <node ref="U102" pin="21" pinfunction="D3/PWM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U102-Pad22)">
+      <node ref="U102" pin="22" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U102-Pad23)">
+      <node ref="U102" pin="23" pinfunction="D5/PWM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U102-Pad24)">
+      <node ref="U102" pin="24" pinfunction="D6/PWM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(U102-Pad25)">
+      <node ref="U102" pin="25" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U102-Pad26)">
+      <node ref="U102" pin="26" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U102-Pad27)">
+      <node ref="U102" pin="27" pinfunction="D9/PWM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U102-Pad28)">
+      <node ref="U102" pin="28" pinfunction="D10/PWM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U102-Pad29)">
+      <node ref="U102" pin="29" pinfunction="D11/MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U102-Pad30)">
+      <node ref="U102" pin="30" pinfunction="D12/MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U103-Pad4)">
+      <node ref="U103" pin="4" pintype="passive+no_connect"/>
+      <node ref="U103" pin="6" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
